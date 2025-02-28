@@ -3,8 +3,10 @@ import { BankAccount } from "@/app/domain/entiry/BankAccount";
 import Card from "../components/Card"
 import CustomNavigationLeftButton from "../components/CustomNavigationLeftButton"
 import CustomNavigationRightButton from "../components/CustomNavigationRightButton"
-import { FaArrowRight } from "react-icons/fa";
 import { useEffect, useState } from "react";
+import SeeAllButton from "../components/SeeAllButton";
+import SectionNameText from "../components/SectionNameText";
+import Space from "../components/FlexSpace";
 
 interface DataProps {
     items: BankAccount[]
@@ -39,17 +41,11 @@ const CorrespondentAccount = ({items}: DataProps) => {
     return (
         <div className="mt-5">
             <div className="flex flex-row p-1 gap-2">
-                <h3 className="flex flex-row text-black font-semibold text-l mr-1">
-                    Corespondent Account
-                </h3>
+                <SectionNameText text="Corespondent Account"/>
                 <CustomNavigationLeftButton disabled={(page <= 0)}  onClick={previousPage} />
                 <CustomNavigationRightButton disabled={(page >= items.length - 1)} onClick={nextPage} />
-                <div className="flex flex-grow" />
-                <a className="flex text-cyan-500 text-pretty items-center">See All {items.length}
-                    <span className="ml-1.5">
-                        <FaArrowRight/>
-                    </span>
-                </a>
+                <Space />
+                <SeeAllButton itemCount={items.length} />
             </div>
             <div className="flex flex-wrap gap-4 mt-2">
             {pageItems.map((item) => (

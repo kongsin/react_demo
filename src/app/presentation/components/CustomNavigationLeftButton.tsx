@@ -1,6 +1,7 @@
+import StyleableProps from "@/app/interfaces/StyleableProbs";
 import { SlArrowLeft } from "react-icons/sl";
 
-const CustomNavigationLeftButton = ({className = "",...props }) => {
+const CustomNavigationLeftButton = ({className = "", ...props }: StyleableProps) => {
     return ( 
         <div>
             <button className={`rounded-full bg-white p-2 ${className}`} 

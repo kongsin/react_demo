@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Sidebar = () => {
   return (
-    <aside className="bg-gray-900 text-white w-64 min-h-screen p-5">
+    <aside className="bg-gray-900 text-white w-60 min-w-60 min-h-screen p-5 hidden lg:block">
       <h2 className="text-xl font-bold">Dashboard</h2>
       <nav className="mt-5">
         <ul>

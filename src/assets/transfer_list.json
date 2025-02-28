@@ -1,0 +1,62 @@
+[
+    {
+      "date": "01.05.2022",
+      "recordId": "1758463",
+      "from": "George Hetfield",
+      "to": "Katrin Winehouse",
+      "direction": "Out",
+      "type": "SEPA",
+      "status": "Void",
+      "amount": "3,500.00",
+      "currency": "EUR",
+      "statusColor": "bg-purple-200 text-purple-600"
+    },
+    {
+      "date": "01.05.2022",
+      "recordId": "1758462",
+      "from": "Christina Ulrich",
+      "to": "Martin Store",
+      "direction": "In",
+      "type": "SEPA",
+      "status": "Void",
+      "amount": "745.16",
+      "currency": "EUR",
+      "statusColor": "bg-purple-200 text-purple-600"
+    },
+    {
+      "date": "01.05.2022",
+      "recordId": "1758461",
+      "from": "Grant Hammett",
+      "to": "Kurt Anderson",
+      "direction": "Out",
+      "type": "SWIFT",
+      "status": "Ready to send",
+      "amount": "100.00",
+      "currency": "USD",
+      "statusColor": "bg-blue-200 text-blue-600"
+    },
+    {
+      "date": "01.05.2022",
+      "recordId": "1758460",
+      "from": "Kirk Peterson",
+      "to": "Roger Miller",
+      "direction": "Out",
+      "type": "SEPA",
+      "status": "Accepted",
+      "amount": "3,455.23",
+      "currency": "EUR",
+      "statusColor": "bg-green-200 text-green-600"
+    },
+    {
+      "date": "01.05.2022",
+      "recordId": "1758457",
+      "from": "Dave Williams",
+      "to": "Emma May",
+      "direction": "In",
+      "type": "SWIFT",
+      "status": "Awaiting AML",
+      "amount": "500.00",
+      "currency": "USD",
+      "statusColor": "bg-orange-200 text-orange-600"
+    }
+  ]

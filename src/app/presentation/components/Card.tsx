@@ -1,6 +1,7 @@
+import StyleableProps from "@/app/interfaces/StyleableProbs";
 import Flag from "react-world-flags";
 
-interface CardProps {
+interface CardProps extends StyleableProps {
     title: string;
     value: string;
     currency?: string;
