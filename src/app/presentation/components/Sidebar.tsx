@@ -35,7 +35,7 @@ const Sidebar = () => {
             collapsedMenu ? (<AiOutlineMenuUnfold
               className={`w-6 h-6 ${collapsedMenu ? 'ml-2' : ''}`}
               onClick={() => setCollapsedMenu((prev) => !prev)}
-            />) : (<AiOutlineMenuUnfold
+            />) : (<AiOutlineMenuFold
               className={`w-6 h-6 ${collapsedMenu ? 'ml-2' : ''}`}
               onClick={() => setCollapsedMenu((prev) => !prev)}
             />)
