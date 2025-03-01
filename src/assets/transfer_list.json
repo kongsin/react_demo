@@ -58,5 +58,89 @@
       "amount": "500.00",
       "currency": "USD",
       "statusColor": "bg-orange-200 text-orange-600"
+    },
+    {
+      "date": "02.05.2022",
+      "recordId": "1758456",
+      "from": "Alice Cooper",
+      "to": "Bob Marley",
+      "direction": "Out",
+      "type": "SWIFT",
+      "status": "Ready to send",
+      "amount": "1,250.50",
+      "currency": "USD",
+      "statusColor": "bg-blue-200 text-blue-600"
+    },
+    {
+      "date": "02.05.2022",
+      "recordId": "1758455",
+      "from": "James Hetfield",
+      "to": "Lars Ulrich",
+      "direction": "In",
+      "type": "SEPA",
+      "status": "Accepted",
+      "amount": "2,300.00",
+      "currency": "EUR",
+      "statusColor": "bg-green-200 text-green-600"
+    },
+    {
+      "date": "03.05.2022",
+      "recordId": "1758454",
+      "from": "Robert Plant",
+      "to": "Jimmy Page",
+      "direction": "Out",
+      "type": "SWIFT",
+      "status": "Void",
+      "amount": "450.75",
+      "currency": "USD",
+      "statusColor": "bg-purple-200 text-purple-600"
+    },
+    {
+      "date": "03.05.2022",
+      "recordId": "1758453",
+      "from": "Steven Tyler",
+      "to": "Joe Perry",
+      "direction": "In",
+      "type": "SEPA",
+      "status": "Awaiting AML",
+      "amount": "980.00",
+      "currency": "EUR",
+      "statusColor": "bg-orange-200 text-orange-600"
+    },
+    {
+      "date": "04.05.2022",
+      "recordId": "1758452",
+      "from": "Freddie Mercury",
+      "to": "Brian May",
+      "direction": "Out",
+      "type": "SWIFT",
+      "status": "Accepted",
+      "amount": "5,000.00",
+      "currency": "USD",
+      "statusColor": "bg-green-200 text-green-600"
+    },
+    {
+      "date": "04.05.2022",
+      "recordId": "1758451",
+      "from": "Mick Jagger",
+      "to": "Keith Richards",
+      "direction": "In",
+      "type": "SEPA",
+      "status": "Ready to send",
+      "amount": "2,750.25",
+      "currency": "EUR",
+      "statusColor": "bg-blue-200 text-blue-600"
+    },
+    {
+      "date": "05.05.2022",
+      "recordId": "1758450",
+      "from": "Axl Rose",
+      "to": "Slash McKagan",
+      "direction": "Out",
+      "type": "SWIFT",
+      "status": "Void",
+      "amount": "1,100.00",
+      "currency": "USD",
+      "statusColor": "bg-purple-200 text-purple-600"
     }
   ]

@@ -15,8 +15,8 @@ const HomePage = () => {
             <div className="flex-1 p-6">
                 <Header />
                 <CorrespondentAccount items={items} />
-                <TransactionList className="mt-9" transactions={transactions} />
-                <AccountRegistration transactions={registration} />
+                <TransactionList className="mt-9" transactions={transactions.slice(0, 5)} />
+                <AccountRegistration transactions={registration.slice(0, 5)} />
             </div>
         </div>
     )
