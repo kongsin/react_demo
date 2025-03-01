@@ -1,7 +1,7 @@
 import TransactionModel from "@/app/domain/entiry/TransactionModel";
 import StyleableProps from "@/app/interfaces/StyleableProbs";
 import TransfersStatusComponent from "./TransfersStatusComponent";
-import TransactionCollumn from "./TransactionCollumn";
+import CustomTableCell from "../components/CustomTableCell";
 
 interface TransactionTableProps extends StyleableProps {
     transactions: TransactionModel[]
@@ -34,19 +34,19 @@ const TransactionTable = ({ transactions, className }: TransactionTableProps) =>
                 <tbody>
                     {transactions.map((tx, index) => (
                         <tr key={index} className="border-b hover:bg-gray-50">
-                            <TransactionCollumn className="hidden lg:table-cell" text={tx.date} />
-                            <TransactionCollumn className="hidden lg:table-cell" text={tx.recordId} />
-                            <TransactionCollumn text={tx.from} />
-                            <TransactionCollumn text={tx.to} />
-                            <TransactionCollumn text={tx.direction} />
-                            <TransactionCollumn text={tx.type} />
-                            <td className="py-3 px-4">
+                            <CustomTableCell className="hidden lg:table-cell" text={tx.date} />
+                            <CustomTableCell className="hidden lg:table-cell" text={tx.recordId} />
+                            <CustomTableCell text={tx.from} />
+                            <CustomTableCell text={tx.to} />
+                            <CustomTableCell text={tx.direction} />
+                            <CustomTableCell text={tx.type} />
+                            <td className="py-3">
                                 <div className="flex">
                                     <TransfersStatusComponent transaction={tx} />
                                 </div>
                             </td>
-                            <TransactionCollumn text={tx.amount} f />
-                            <TransactionCollumn text={tx.currency} />
+                            <CustomTableCell text={tx.amount} f />
+                            <CustomTableCell text={tx.currency} />
                         </tr>
                     ))}
                 </tbody>
