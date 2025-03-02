@@ -17,7 +17,7 @@ const Card = ({ title, value, currency, countryCode, bgColor, fontColor, transac
             <div className="flex flex-row">
                 <Flag code={countryCode} className=" rounded-full w-5 h-5 object-cover" />
                 <div className="flex flex-col ml-2">
-                    <div style={{ color: fontColor }} className={`text-sm font-medium [color:${bgColor}] font-bold`}>{title}</div>
+                    <div style={{ color: fontColor }} className={`text-sm font-bold [color:${bgColor}] font-bold`}>{title}</div>
                     <div className="text-sm text-gray-500 line-clamp-1">{transactionId}</div>
                     <div className="text-xl font-bold text-black">{value} {currency}</div>
                 </div>
