@@ -16,7 +16,7 @@ const NavigationMenuItem: React.FC<NavigationMenuItemProps> = ({
     <li className={`mb-3 h-10 pl-2 flex flex-row items-center rounded hover:bg-gray-700 ${className}`}>
         {component}
         {showText && (
-            <Link href="/transactions" className="p-2 ml-3 text-sm hidden xl:block">
+            <Link href="/transactions" className="p-2 ml-2 text-xs font-bold hidden xl:block">
                 {text}
             </Link>
         )}
