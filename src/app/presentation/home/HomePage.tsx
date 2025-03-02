@@ -8,19 +8,19 @@ import registration from "../../../assets/mockup_registration.json"
 import { useEffect } from "react";
 import { CorrespondentAccountStore } from "@/app/stores/CorrespondentAccountStore";
 import { TransactionsStore } from "@/app/stores/TransactionStore";
+import { RegistrationStore } from "@/app/stores/RegistrationStore";
 
 
 const HomePage = () => {
 
     const { correspondentItems, fetchCorrespondentItems } = CorrespondentAccountStore()
     const { transactionItems, fetchTransactionItem } = TransactionsStore()
+    const { registrationsItems, fetchRegistrationItems } = RegistrationStore()
 
     useEffect(() => {
         fetchCorrespondentItems()
-    },[])
-
-    useEffect(() => {
         fetchTransactionItem()
+        fetchRegistrationItems()
     },[])
 
     return (
@@ -33,7 +33,7 @@ const HomePage = () => {
                 <Header />
                 <CorrespondentAccount items={correspondentItems} />
                 <TransactionList className="mt-9" transactions={transactionItems} />
-                <AccountRegistration transactions={registration.slice(0, 5)} />
+                <AccountRegistration transactions={registrationsItems} />
             </div>
         </div>
     )
