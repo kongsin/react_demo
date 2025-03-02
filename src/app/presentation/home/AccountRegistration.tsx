@@ -15,7 +15,7 @@ const AccountRegistration = ({transactions, className}: AccountRegistrationTable
                 <FlexSpace />
                 <SeeAllButton itemCount={transactions.length} />
             </div>
-            <AccountRegistrationTable className={`mt-4 ${className}`} transactions={transactions} />
+            <AccountRegistrationTable className={`mt-4 ${className}`} transactions={transactions.slice(0,5)} />
         </div>
     )
 }
