@@ -28,7 +28,7 @@ const Sidebar = () => {
   return (
     <aside className={`bg-gray-900 text-white min-h-screen w-16 px-3 ${collapsedMenu ? 'min-w-16 py-5' : 'min-w-16 py-5 xl:min-w-64 xl:w-64'}`}>
       <div className="flex flex-row items-center">
-        <h2 className={`text-xl pl-2 font-bold ${collapsedMenu ? 'hidden' : 'hidden xl:block'}`}>Dashboard</h2>
+        <h2 className={`text-l pl-2 font-bold ${collapsedMenu ? 'hidden' : 'hidden xl:block'}`}>MacroBank</h2>
         <FlexSpace className={`${collapsedMenu ? 'hidden' : 'hidden xl:block'}`} />
         <div className={`hidden xl:block cursor-pointer`}>
           {
