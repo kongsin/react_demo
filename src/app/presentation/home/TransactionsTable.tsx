@@ -3,6 +3,7 @@ import TransactionModel from "@/app/domain/entiry/TransactionModel";
 import StyleableProps from "@/app/interfaces/StyleableProbs";
 import TransfersStatusComponent from "./TransfersStatusComponent";
 import CustomTableCell from "../components/CustomTableCell";
+import { AiFillSetting, AiOutlineMore, AiOutlineSetting } from "react-icons/ai";
 
 interface TransactionTableProps extends StyleableProps {
     transactions: TransactionModel[]
@@ -12,9 +13,9 @@ const TransactionTable = ({ transactions, className }: TransactionTableProps) =>
     const hiddenCell = ["Last Status", "Record ID"]
     return (
         <div className="w-full overflow-x-auto">
-            <table className={`min-w-full bg-white shadow-md rounded-lg ${className}`}>
+            <table className={`min-w-full table-auto bg-white shadow-md rounded-lg ${className}`}>
                 <thead>
-                    <tr className="bg-gray-100 text-gray-700">
+                    <tr className="bg-white text-gray-700 border-b border-b-gray-100">
                         {[
                             "Last Status",
                             "Record ID",
@@ -26,15 +27,18 @@ const TransactionTable = ({ transactions, className }: TransactionTableProps) =>
                             "Amount",
                             "Currency",
                         ].map((heading) => (
-                            <th key={heading} className={`py-3 px-4 text-left text-sm font-semibold ${ hiddenCell.includes(heading) ? 'hidden lg:table-cell' : '' }`}>
+                            <th key={heading} className={`py-3 px-4 text-ellipsis text-left text-sm font-semibold ${hiddenCell.includes(heading) ? 'hidden lg:table-cell' : ''}`}>
                                 {heading}
                             </th>
                         ))}
+                        <th className="py-1 px-2">
+                            <AiOutlineSetting size={18} className="text-black w-full min-w-8" />
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
                     {transactions.map((tx, index) => (
-                        <tr key={index} className="border-b hover:bg-gray-50">
+                        <tr key={index} className="border-b border-b-gray-100 hover:bg-gray-50">
                             <CustomTableCell className="hidden lg:table-cell" text={tx.date} />
                             <CustomTableCell className="hidden lg:table-cell" text={tx.recordId} />
                             <CustomTableCell text={tx.from} />
@@ -48,6 +52,9 @@ const TransactionTable = ({ transactions, className }: TransactionTableProps) =>
                             </td>
                             <CustomTableCell text={tx.amount} f />
                             <CustomTableCell text={tx.currency} />
+                            <td className="py-3">
+                                <AiOutlineMore size={18} className="text-black w-full min-w-8" />
+                            </td>
                         </tr>
                     ))}
                 </tbody>
