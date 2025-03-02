@@ -6,7 +6,7 @@ interface CustomTableCellProps extends StyleableProps {
 
 const CustomTableCell = ({className, text}:CustomTableCellProps) => {
     return (
-        <td className={`py-3 px-4 text-gray-700 text-sm max-w-xs ${className}`}>{text}</td>
+        <td className={`py-3 px-4 text-gray-700 text-xs font-bold max-w-xs ${className}`}>{text}</td>
     )
 }   
 
