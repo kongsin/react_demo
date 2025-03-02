@@ -1,3 +1,4 @@
+'use client';
 import TransactionModel from "@/app/domain/entiry/TransactionModel";
 import StyleableProps from "@/app/interfaces/StyleableProbs";
 import TransfersStatusComponent from "./TransfersStatusComponent";
