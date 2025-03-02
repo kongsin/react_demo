@@ -7,7 +7,7 @@ export interface SeeAllProps extends StyleableProps {
 
 const SeeAllButton = ({className, itemCount}: SeeAllProps) => {
     return (
-        <a className={`flex text-cyan-500 text-pretty items-center ${className}`}>See All {itemCount}
+        <a className={`flex text-cyan-500 text-sm font-bold items-center ${className}`}>See All {itemCount}
             <span className="ml-1.5">
                 <FaArrowRight />
             </span>
