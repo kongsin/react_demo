@@ -19,13 +19,7 @@ const HomePage = () => {
 
     useEffect(() => {
         fetchCorrespondentItems()
-    },[])
-
-    useEffect(() => {
         fetchTransactionItem()
-    },[])
-
-    useEffect(() => {
         fetchRegistrationItems()
     },[])
 
