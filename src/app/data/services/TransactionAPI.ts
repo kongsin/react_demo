@@ -1,8 +1,8 @@
-import { BankAccount } from "@/app/domain/entiry/BankAccount";
+import TransactionModel from "@/app/domain/entiry/TransactionModel";
 import { HttpClient } from "./HttpClient";
 import { handleError } from "@/app/utils/HandleErrorUtil";
 
-export class CorrespondentAccountAPI extends HttpClient {
+export class TransactionAPI extends HttpClient {
     constructor() {
         super(
             "http://localhost:8080",
@@ -14,9 +14,9 @@ export class CorrespondentAccountAPI extends HttpClient {
         )
     }
 
-    async fetchCorrespondents(): Promise<BankAccount[]> {
+    async fetchTransactions(): Promise<TransactionModel[]> {
         try {
-            return await super.get("/correspondents")
+            return await super.get("/transactions")
         } catch (error) {
             throw handleError(error)
         }

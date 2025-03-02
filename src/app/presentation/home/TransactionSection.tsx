@@ -16,7 +16,7 @@ const TransactionList = ({className, transactions}: TransactionItemsProps) => {
                 <Space />
                 <SeeAllButton itemCount={transactionCount} />
             </div>
-            <TransactionTable className="mt-4" transactions={transactions}/>
+            <TransactionTable className="mt-4" transactions={transactions.slice(0, 5)}/>
         </div>
     )
 }
