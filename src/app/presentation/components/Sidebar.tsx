@@ -64,7 +64,7 @@ const Sidebar = () => {
             <Flag code='US' className=" rounded-full w-6 h-6 object-cover" />
             <h4 className="text-xs font-bold text-gray-400 ml-2">USD</h4>
             <FlexSpace />
-            <h4 className="text-xs font-bold text-gray-400">1,0557</h4>
+            <h4 className="text-sm font-bold text-gray-400">1,0557</h4>
           </div>
         </ul>
       </nav>
