@@ -9,7 +9,7 @@ const AccountRegistration = ({transactions, className}: AccountRegistrationTable
 
     return (
         <div className="flex flex-col mt-9">
-            <div className="flex flex-row">
+            <div className="flex flex-row items-center">
                 <SectionNameText text="Account Registration" />
                 <BadgeComponent text="Pending" />
                 <FlexSpace />
