@@ -1,0 +1,134 @@
+[
+    {
+        "id": 0,
+        "bank": "Bank 1",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "EUR",
+        "balance": "€16,445.13",
+        "background_color": "#B3D4FC",
+        "font_color": "#3274B6",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "EU"
+    },
+    {
+        "id": 1,
+        "bank": "Bank 2",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "JPY",
+        "balance": "¥314,312.03",
+        "background_color": "#F7B9C8",
+        "font_color": "#C92047",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "JP"
+    },
+    {
+        "id": 2,
+        "bank": "Bank 3",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "EUR",
+        "balance": "€16,445.13",
+        "background_color": "#FAD89A",
+        "font_color": "#C8963D",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "EU"
+    },
+    {
+        "id": 3,
+        "bank": "Bank 4",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "USD",
+        "balance": "$115,245.44",
+        "background_color": "#A4E8D2",
+        "font_color": "#218B6F",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "US"
+    },
+    {
+        "id": 4,
+        "bank": "Bank 5",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "GBP",
+        "balance": "£8,945.75",
+        "background_color": "#E5B9E5",
+        "font_color": "#7B1F7B",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "GB"
+    },
+    {
+        "id": 5,
+        "bank": "Bank 6",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "CAD",
+        "balance": "$12,345.67",
+        "background_color": "#FFD700",
+        "font_color": "#B8860B",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "CA"
+    },
+    {
+        "id": 6,
+        "bank": "Bank 7",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "AUD",
+        "balance": "$9,876.54",
+        "background_color": "#ADD8E6",
+        "font_color": "#4682B4",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "AU"
+    },
+    {
+        "id": 7,
+        "bank": "Bank 8",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "CHF",
+        "balance": "CHF 5,432.10",
+        "background_color": "#D3D3D3",
+        "font_color": "#696969",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "CH"
+    },
+    {
+        "id": 8,
+        "bank": "Bank 9",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "CNY",
+        "balance": "¥78,965.34",
+        "background_color": "#FF6347",
+        "font_color": "#A52A2A",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "CN"
+    },
+    {
+        "id": 9,
+        "bank": "Bank 10",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "INR",
+        "balance": "₹45,678.90",
+        "background_color": "#DAA520",
+        "font_color": "#8B4513",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "IN"
+    },
+    {
+        "id": 10,
+        "bank": "Bank 11",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "BRL",
+        "balance": "R$23,456.78",
+        "background_color": "#32CD32",
+        "font_color": "#006400",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "BR"
+    },
+    {
+        "id": 11,
+        "bank": "Bank 12",
+        "account_number": "XX12XXXX1234567891011",
+        "currency": "SGD",
+        "balance": "$6,789.12",
+        "background_color": "#FFA07A",
+        "font_color": "#FF4500",
+        "transaction_id": "xxde21b235-5886-4a92-bcb7-f6dcbc66cdc3",
+        "countryCode": "SG"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+      "businessDate": "01.05.2022",
+      "recordId": "4544",
+      "name": "Paola Sorrentino",
+      "email": "paola14@gmail.com",
+      "status": "Registration",
+      "type": "Private"
+    },
+    {
+      "businessDate": "02.05.2022",
+      "recordId": "4545",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "status": "Completed",
+      "type": "Corporate"
+    },
+    {
+      "businessDate": "03.05.2022",
+      "recordId": "4546",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "status": "Pending",
+      "type": "Private"
+    },
+    {
+      "businessDate": "04.05.2022",
+      "recordId": "4547",
+      "name": "Robert Brown",
+      "email": "robert.brown@example.com",
+      "status": "Registration",
+      "type": "Corporate"
+    },
+    {
+      "businessDate": "05.05.2022",
+      "recordId": "4548",
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "status": "Completed",
+      "type": "Private"
+    },
+    {
+      "businessDate": "06.05.2022",
+      "recordId": "4549",
+      "name": "Michael Wilson",
+      "email": "michael.wilson@example.com",
+      "status": "Registration",
+      "type": "Corporate"
+    },
+    {
+      "businessDate": "07.05.2022",
+      "recordId": "4550",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@example.com",
+      "status": "Pending",
+      "type": "Private"
+    },
+    {
+      "businessDate": "08.05.2022",
+      "recordId": "4551",
+      "name": "David Lee",
+      "email": "david.lee@example.com",
+      "status": "Completed",
+      "type": "Corporate"
+    },
+    {
+      "businessDate": "09.05.2022",
+      "recordId": "4552",
+      "name": "Laura Martinez",
+      "email": "laura.martinez@example.com",
+      "status": "Registration",
+      "type": "Private"
+    },
+    {
+      "businessDate": "10.05.2022",
+      "recordId": "4553",
+      "name": "Daniel Garcia",
+      "email": "daniel.garcia@example.com",
+      "status": "Pending",
+      "type": "Corporate"
+    },
+    {
+      "businessDate": "11.05.2022",
+      "recordId": "4554",
+      "name": "Olivia Rodriguez",
+      "email": "olivia.rodriguez@example.com",
+      "status": "Completed",
+      "type": "Private"
+    },
+    {
+      "businessDate": "12.05.2022",
+      "recordId": "4555",
+      "name": "William Martinez",
+      "email": "william.martinez@example.com",
+      "status": "Registration",
+      "type": "Corporate"
+    }
+  ]
