@@ -3,6 +3,7 @@ import TransactionModel from "@/app/domain/entiry/TransactionModel";
 import StyleableProps from "@/app/interfaces/StyleableProbs";
 import TransfersStatusComponent from "./TransfersStatusComponent";
 import CustomTableCell from "../components/CustomTableCell";
+import { AiFillSetting, AiOutlineMore, AiOutlineSetting } from "react-icons/ai";
 
 interface TransactionTableProps extends StyleableProps {
     transactions: TransactionModel[]
@@ -26,10 +27,13 @@ const TransactionTable = ({ transactions, className }: TransactionTableProps) =>
                             "Amount",
                             "Currency",
                         ].map((heading) => (
-                            <th key={heading} className={`py-3 px-4 text-left text-sm font-semibold ${ hiddenCell.includes(heading) ? 'hidden lg:table-cell' : '' }`}>
+                            <th key={heading} className={`py-3 px-4 text-left text-sm font-semibold ${hiddenCell.includes(heading) ? 'hidden lg:table-cell' : ''}`}>
                                 {heading}
                             </th>
                         ))}
+                        <th className="py-1 px-2">
+                            <AiOutlineSetting size={18} className="text-black w-full min-w-8" />
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -48,6 +52,9 @@ const TransactionTable = ({ transactions, className }: TransactionTableProps) =>
                             </td>
                             <CustomTableCell text={tx.amount} f />
                             <CustomTableCell text={tx.currency} />
+                            <td className="py-3">
+                                <AiOutlineMore size={18} className="text-black w-full min-w-8" />
+                            </td>
                         </tr>
                     ))}
                 </tbody>
