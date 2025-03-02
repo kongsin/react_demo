@@ -67,9 +67,6 @@ const Sidebar = () => {
             <h4 className="text-xs font-bold text-gray-400">1,0557</h4>
           </div>
         </ul>
-        <ul className="bg-gray-900 w-full fixed bottom-2">
-
-        </ul>
       </nav>
     </aside>
   );
