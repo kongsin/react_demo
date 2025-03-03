@@ -1,17 +1,19 @@
 import StyleableProps from "@/app/interfaces/StyleableProbs"
+import Link from "next/link"
 import { FaArrowRight } from "react-icons/fa"
 
 export interface SeeAllProps extends StyleableProps {
-    itemCount: number
+    itemCount: number,
+    page: string
 }
 
-const SeeAllButton = ({className, itemCount}: SeeAllProps) => {
+const SeeAllButton = ({className, itemCount, page}: SeeAllProps) => {
     return (
-        <a className={`flex text-cyan-500 text-sm font-bold items-center ${className}`}>See All {itemCount}
+        <Link href={page} className={`flex text-cyan-500 text-sm font-bold items-center ${className}`}>See All {itemCount}
             <span className="ml-1.5">
                 <FaArrowRight />
             </span>
-        </a>
+        </Link>
     )
 }
 

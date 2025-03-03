@@ -25,6 +25,7 @@ const menuItems = [
 
 const Sidebar = () => {
   const [collapsedMenu, setCollapsedMenu] = useState(false);
+  const [selected, setSelected] = useState('Overview')
 
   return (
     <aside className={`bg-gray-900 text-white min-h-screen w-16 px-3 ${collapsedMenu ? 'min-w-16 py-5' : 'min-w-16 py-5 xl:min-w-64 xl:w-64'}`}>
@@ -52,6 +53,7 @@ const Sidebar = () => {
               component={item.icon}
               text={item.text}
               showText={!collapsedMenu}
+              isSelected = {item.text == selected}
             />
           ))}
         </ul>
