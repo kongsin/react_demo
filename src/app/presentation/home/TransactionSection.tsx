@@ -14,7 +14,7 @@ const TransactionList = ({className, transactions}: TransactionItemsProps) => {
                 <SectionNameText text="Transfers"/>
                 <BadgeComponent text="Pendding" />
                 <Space />
-                <SeeAllButton itemCount={transactionCount} />
+                <SeeAllButton itemCount={transactionCount} page="/" />
             </div>
             <TransactionTable className="mt-4" transactions={transactions.slice(0, 5)}/>
         </div>

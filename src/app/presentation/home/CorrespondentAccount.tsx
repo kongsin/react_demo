@@ -45,7 +45,7 @@ const CorrespondentAccount = ({items}: DataProps) => {
                 <CustomNavigationLeftButton disabled={(page <= 0)}  onClick={previousPage} />
                 <CustomNavigationRightButton disabled={(page >= items.length - 1)} onClick={nextPage} />
                 <Space />
-                <SeeAllButton itemCount={items.length} />
+                <SeeAllButton itemCount={items.length} page="/"/>
             </div>
             <div className="flex flex-wrap gap-4 mt-2">
             {pageItems.map((item) => (

@@ -13,7 +13,7 @@ const AccountRegistration = ({transactions, className}: AccountRegistrationTable
                 <SectionNameText text="Account Registration" />
                 <BadgeComponent text="Pending" />
                 <FlexSpace />
-                <SeeAllButton itemCount={transactions.length} />
+                <SeeAllButton itemCount={transactions.length} page="/" />
             </div>
             <AccountRegistrationTable className={`mt-4 ${className}`} transactions={transactions.slice(0,5)} />
         </div>
